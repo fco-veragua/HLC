@@ -1,4 +1,4 @@
-# BACKEND (con Node, Express y MongoDB) =========> PROYECTO DE Jose Antonio Munóz Jiménez (github.com/jamj2000)
+# BACKEND (con Node, Express y MongoDB) =========> PROYECTO DE Jose Antonio Muñoz Jiménez (github.com/jamj2000)
 
 > **ESTE MINITUTORIAL ES UNA VERSIÓN RESUMIDA DEL BACKEND DE ESTA APLICACIÓN**
 > 

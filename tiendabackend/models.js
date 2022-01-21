@@ -8,10 +8,21 @@ const Articulo = mongoose.model('Articulo',
   new mongoose.Schema({ nombre: String, precio: Number })
 );
 
+const Arma = mongoose.model('Articulo',
+  new mongoose.Schema({ nombre: String, precio: Number })
+);
+
+const Tirador = mongoose.model('Cliente',
+  new mongoose.Schema({ nombre: String, apellidos: String })
+);
+
 module.exports = {
   Cliente: Cliente,
-  Articulo: Articulo
+  Articulo: Articulo,
+  Arma: Arma,
+  Tirador: Tirador
 }
+
 
 // Otra forma más corta:
 // module.exports = {

@@ -8,11 +8,11 @@ const Articulo = mongoose.model('Articulo',
   new mongoose.Schema({ nombre: String, precio: Number })
 );
 
-const Arma = mongoose.model('Articulo',
+const Arma = mongoose.model('Arma',
   new mongoose.Schema({ nombre: String, precio: Number })
 );
 
-const Tirador = mongoose.model('Cliente',
+const Tirador = mongoose.model('Tirador',
   new mongoose.Schema({ nombre: String, apellidos: String })
 );
 
